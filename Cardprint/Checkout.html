@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html>
+
+<head> 
+
+<div id="navbar">
+<a href="index.html"> home </a>
+<a href="Services.html" >services </a>
+<a> Checkout </a>
+</div>
+
+<link href="cardprint.css" type="text/css" rel="stylesheet">
+<h1> <img src="Logo.jpg" width = "200"> SP Card printing </h1>
+
+<h2> Checkout </h2>
+
+<script src= "HtmlTaskJS.js"> </script>
+
+</head>
+
+<body> 
+<h3>Basic Quality Card</h3>
+
+<form name="form1">
+
+<label for="bname"> Business Name: </label>
+<input type="text" id="bname name="bname"> <br>
+
+<label  for="email"> Email Address: </label>
+<input type="text" id="email" name="email"><br>
+
+<label for="Quantity"> Quantity To Order </label>
+<input onChange = "checkQuantity()"  type="text" id="quatity" name="quantity"><br>
+
+<div class =  "dispQuantInfo"> Quantity info </div>
+<div class = "hideQuantInfo"> Please enter a quantity within the range of 1 - 1000 </div>
+
+ 
+
+<br>
+<button input type="button" name="calcButton" onclick= "calcPriceLow()" > Calculate Quote </button>
+<button input type="button" name="procWiButton"> Proceed with order </button>
+<br>
+
+</form>
+</body> 

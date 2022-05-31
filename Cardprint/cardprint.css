@@ -1,0 +1,85 @@
+.cent{text-align: center;}
+
+
+
+.dispQuantInfo:hover + .hideQuantInfo {
+  display: block;
+  color: white;
+}
+
+.hideQuantInfo {
+  display: none;
+}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color:solid black;
+  font-style:bold;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h1 {
+font-family: "Impact";
+font-size: 100px;
+text-align: center;
+border-bottom: solid 4px blue;
+}
+
+body {
+background-color: grey;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+#navbar a {
+	font-family: "impact";
+	font; solid 10px
+	float: left;
+	display: block;
+	color: black;
+	text-align: left;
+	padding: 10px;
+}
+	
+h5{
+	border: solid 4px black;
+	color: blue;
+}
+
+form{
+	
+font-family: "Impact";
+font-size: 20px;
+text-align: center;
+border-bottom: solid 4px black;
+	
+}
+
+h2{
+	border: solid 1px black;
+	color: blue;
+}
+
+th{
+	color: blue;
+	
+}
+
+
+
